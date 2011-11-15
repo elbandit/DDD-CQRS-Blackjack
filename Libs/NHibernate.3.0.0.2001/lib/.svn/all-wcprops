@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib
+END
+NHibernate.ByteCode.Castle.dll
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib/NHibernate.ByteCode.Castle.dll
+END
+Remotion.Data.Linq.dll
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib/Remotion.Data.Linq.dll
+END
+nhibernate-configuration.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib/nhibernate-configuration.xsd
+END
+NHibernate.ByteCode.Castle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib/NHibernate.ByteCode.Castle.xml
+END
+nhibernate-mapping.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib/nhibernate-mapping.xsd
+END
+NHibernate.dll
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib/NHibernate.dll
+END
+NHibernate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/87754/Libs/NHibernate.3.0.0.2001/lib/NHibernate.xml
+END

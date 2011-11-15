@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/SoftBlackJackSpecification
+END
+when_checking_for_blackjack_with_a_hand_that_contains_two_aces.cs
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/SoftBlackJackSpecification/when_checking_for_blackjack_with_a_hand_that_contains_two_aces.cs
+END

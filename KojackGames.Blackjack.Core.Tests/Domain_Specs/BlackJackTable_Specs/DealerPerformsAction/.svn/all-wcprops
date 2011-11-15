@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/BlackJackTable_Specs/DealerPerformsAction
+END
+when_performing_an_action_on_a_players_hand_that_causes_the_end_of_the_game.cs
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/BlackJackTable_Specs/DealerPerformsAction/when_performing_an_action_on_a_players_hand_that_causes_the_end_of_the_game.cs
+END
+when_performing_an_action_on_a_players_hand_that_is_legal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/BlackJackTable_Specs/DealerPerformsAction/when_performing_an_action_on_a_players_hand_that_is_legal.cs
+END

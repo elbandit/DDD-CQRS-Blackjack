@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure
+END
+KojackGames.Blackjack.Infrastructure.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/KojackGames.Blackjack.Infrastructure.csproj
+END
+IUnitOfWork.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/IUnitOfWork.cs
+END
+IUnitOfWorkFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/IUnitOfWorkFactory.cs
+END

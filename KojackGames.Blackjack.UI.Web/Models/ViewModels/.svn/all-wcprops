@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels
+END
+AccountInformationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/AccountInformationView.cs
+END
+IMasterView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/IMasterView.cs
+END
+AccountHomeView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/AccountHomeView.cs
+END
+AccountRegisterFormView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/AccountRegisterFormView.cs
+END
+CashInView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/CashInView.cs
+END
+HomeView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/HomeView.cs
+END
+BetView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/BetView.cs
+END
+AccountLogOnFormView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/AccountLogOnFormView.cs
+END
+GamePlayView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ViewModels/GamePlayView.cs
+END

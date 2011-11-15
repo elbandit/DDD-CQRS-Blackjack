@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealCardsIn
+END
+with_a_deal_in_cards_action.cs
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealCardsIn/with_a_deal_in_cards_action.cs
+END
+when_dealing_in_the_hands_and_one_achieves_blackjack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealCardsIn/when_dealing_in_the_hands_and_one_achieves_blackjack.cs
+END
+when_dealing_in_the_hands.cs
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealCardsIn/when_dealing_in_the_hands.cs
+END
+when_a_players_hand_meets_the_criteria_to_double_after_dealing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealCardsIn/when_a_players_hand_meets_the_criteria_to_double_after_dealing.cs
+END
+when_a_players_hand_meets_the_criteria_to_split_after_dealing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealCardsIn/when_a_players_hand_meets_the_criteria_to_split_after_dealing.cs
+END
+when_a_players_hand_meets_the_criteria_to_take_insurance_after_dealing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealCardsIn/when_a_players_hand_meets_the_criteria_to_take_insurance_after_dealing.cs
+END

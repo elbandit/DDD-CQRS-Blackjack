@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models
+END
+ICommandMapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/ICommandMapper.cs
+END
+BetCommandMapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Models/BetCommandMapper.cs
+END

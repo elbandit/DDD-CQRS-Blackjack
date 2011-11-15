@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KojackGames.Blackjack.Domain.GamePlay.Model.BlackJackTable">
+    <Position X="0.75" Y="2.75" Width="3" />
+    <AssociationLine Name="_card_shoe" Type="KojackGames.Blackjack.Domain.GamePlay.Model.ICardShoe">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.294" Y="0.568" Height="0.182" Width="1.006" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAQAAAAAAAACAAEAAAAAQAAABAAAAAIAAAAA=</HashCode>
+      <FileName>GamePlay\Model\BlackJackTable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playing_positions" />
+      <Field Name="_card_shoe" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KojackGames.Blackjack.Domain.GamePlay.Model.TableStatus" Collapsed="true">
+    <Position X="1.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAgBBQQAAEAIAEAIAAAAgAAAAAAgA=</HashCode>
+      <FileName>GamePlay\Model\TableStatus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Hand" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAARAAABiIAABAAAAAAAAAAAAQAEACBgA=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\Hands\Hand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Dealer.DealersHand" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\Hands\Dealer\DealersHand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Player.PlayersHand" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAACACAAAAEAEAAAAAAAAAAACAIIAAAAoACABA=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\Hands\Player\PlayersHand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="wager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Player.Bet" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\Hands\Player\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="KojackGames.Blackjack.Domain.GamePlay.Model.ICardShoe" Collapsed="true">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\Model\ICardShoe.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.IPlayingPositions">
+    <Position X="5.25" Y="2.75" Width="2.25" />
+    <AssociationLine Name="dealers_hand" Type="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Dealer.IDealersHand">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.463" Y="0.445" Height="0.162" Width="1.183" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="all_hands" Type="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.IHand">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.172" Y="0.133" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAQAICACAAAAAECEAAABEAAAACAACI=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\IPlayingPositions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="players_hand" />
+      <Property Name="dealers_hand" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="all_hands" />
+    </ShowAsCollectionAssociation>
+  </Interface>
+  <Interface Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Player.IPlayersHand" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAACACAAAAAAEAAAAAAAAAAACAAIAAAAgAAABA=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\Hands\Player\IPlayersHand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Dealer.IDealersHand" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\Hands\Dealer\IDealersHand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.IHand" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAABiIAAAAAAAAAAAAAAAQAEACBAA=</HashCode>
+      <FileName>GamePlay\Model\PlayingPosition\Hands\IHand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

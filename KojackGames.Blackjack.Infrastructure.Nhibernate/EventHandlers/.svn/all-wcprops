@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/EventHandlers
+END
+MembershipEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/EventHandlers/MembershipEvent.cs
+END
+MembershipEventActions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/EventHandlers/MembershipEventActions.cs
+END
+PlayerRegisterEventHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/EventHandlers/PlayerRegisterEventHandler.cs
+END

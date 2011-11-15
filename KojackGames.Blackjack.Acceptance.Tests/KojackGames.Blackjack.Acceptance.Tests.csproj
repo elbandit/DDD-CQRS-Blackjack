@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7A7B8D6-20A6-45CB-A780-C5F613B4E6CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KojackGames.Blackjack.Acceptance.Tests</RootNamespace>
+    <AssemblyName>KojackGames.Blackjack.Acceptance.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\KojackGames.Blackjack.Acceptance.Tests.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\Libs\Antlr.3.1.3.42154\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cassini">
+      <HintPath>..\Libs\Cassini\Cassini.dll</HintPath>
+    </Reference>
+    <Reference Include="CassiniWebServer">
+      <HintPath>..\Libs\Cassini\CassiniWebServer.exe</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\Libs\Iesi.Collections.1.0.1\lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\Libs\NHibernate.3.0.0.2001\lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\Libs\NHibernate.3.0.0.2001\lib\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Libs\NUnit.2.5.7.10213\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq">
+      <HintPath>..\Libs\NHibernate.3.0.0.2001\lib\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\Libs\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\Libs\SpecFlow.1.5.0.0\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="WatiN.Core">
+      <HintPath>..\Libs\Watin.2.0.20.1089\WatiN.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Events\FeatureEvents.cs" />
+    <Compile Include="Features\001-BetAtTheStartOfAGame.feature.cs">
+      <DependentUpon>001-BetAtTheStartOfAGame.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\002-DealCards.feature.cs">
+      <DependentUpon>002-DealCards.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\003-HitHand.feature.cs">
+      <DependentUpon>003-HitHand.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\004-StickHand.feature.cs">
+      <DependentUpon>004-StickHand.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\005-WinGame.feature.cs">
+      <DependentUpon>005-WinGame.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\006-DealerPlayingRules.feature.cs">
+      <DependentUpon>006-DealerPlayingRules.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\007-DoubleStake.feature.cs">
+      <DependentUpon>007-DoubleStake.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\008-Split.feature.cs">
+      <DependentUpon>008-Split.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\009-Insurance.feature.cs">
+      <DependentUpon>009-Insurance.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\010-MemberRegistration.feature.cs">
+      <DependentUpon>010-MemberRegistration.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\014-PayingOut.feature.cs">
+      <DependentUpon>014-PayingOut.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\021-DeckOfCards1.feature.cs">
+      <DependentUpon>021-DeckOfCards.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Features\022-MemberRegistrationData.feature.cs">
+      <DependentUpon>022-MemberRegistrationData.feature</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PageObjects\AccountHomePage.cs" />
+    <Compile Include="PageObjects\BetOnHandPage.cs" />
+    <Compile Include="PageObjects\LoginPage.cs" />
+    <Compile Include="PageObjects\GameDisplayPage.cs" />
+    <Compile Include="PageObjects\RegistrationPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Steps\AccountHomeSteps.cs" />
+    <Compile Include="Steps\AccountSetUpSteps.cs" />
+    <Compile Include="Steps\CardDeckSteps.cs" />
+    <Compile Include="Steps\LogOnSteps.cs" />
+    <Compile Include="Steps\RegisterPlayerSteps.cs" />
+    <Compile Include="Steps\RegistrationLogSteps.cs" />
+    <Compile Include="Utilities\StateBuilder\DealersHandBuilder.cs" />
+    <Compile Include="Utilities\StateBuilder\HandBuilder.cs" />
+    <Compile Include="Utilities\StateBuilder\PlayersBuilder.cs" />
+    <Compile Include="Utilities\TableObjects\MemberShipAccountRow.cs" />
+    <Compile Include="Utilities\TableObjects\MembershipEventsRow.cs" />
+    <Compile Include="Utilities\TableObjects\PlayerTableRow.cs" />
+    <Compile Include="Utilities\TableObjects\TableObjectMapper.cs" />
+    <Compile Include="Utilities\SessionFactory.cs" />
+    <Compile Include="Utilities\TableObjects\BlackJackTableRow.cs" />
+    <Compile Include="Utilities\StateBuilder\GameBuilder.cs" />
+    <Compile Include="Steps\GameSetUpSteps.cs" />
+    <Compile Include="Steps\GameDisplaySteps.cs" />
+    <Compile Include="Steps\GamePlaySteps.cs" />
+    <Compile Include="Utilities\DataBaseHelper.cs" />
+    <Compile Include="Steps\NavigationSteps.cs" />
+    <Compile Include="Utilities\PlayerToken.cs" />
+    <Compile Include="Utilities\SiteNavigator.cs" />
+    <Compile Include="Utilities\TableObjects\CardInHandRow.cs" />
+    <Compile Include="Utilities\TableObjects\DeckRow.cs" />
+    <Compile Include="Utilities\TableObjects\HandTableRow.cs" />
+    <Compile Include="Utilities\WebBrowser.cs" />
+    <Compile Include="Utilities\WebSiteFileLocation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Features\001-BetAtTheStartOfAGame.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>001-BetAtTheStartOfAGame.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\002-DealCards.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>002-DealCards.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\003-HitHand.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>003-HitHand.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\004-StickHand.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>004-StickHand.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\005-WinGame.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>005-WinGame.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\006-DealerPlayingRules.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>006-DealerPlayingRules.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\007-DoubleStake.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>007-DoubleStake.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\008-Split.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>008-Split.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\009-Insurance.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>009-Insurance.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\010-MemberRegistration.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>010-MemberRegistration.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\014-PayingOut.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>014-PayingOut.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\021-DeckOfCards.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>021-DeckOfCards1.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\022-MemberRegistrationData.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>022-MemberRegistrationData.feature.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KojackGames.Blackjack.Domain\KojackGames.Blackjack.Domain.csproj">
+      <Project>{84E4D508-7223-45DA-961B-800022738DE0}</Project>
+      <Name>KojackGames.Blackjack.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KojackGames.Blackjack.Infrastructure\KojackGames.Blackjack.Infrastructure.csproj">
+      <Project>{3C2B4832-4DC8-4B58-B846-D7126585EDDC}</Project>
+      <Name>KojackGames.Blackjack.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utilities\Mapping\BlackJackTableRow.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utilities\Mapping\HandTableRow.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utilities\Mapping\PlayerTableRow.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utilities\Mapping\MembershipEventsRow.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

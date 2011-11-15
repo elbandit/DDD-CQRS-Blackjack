@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/PageObjects
+END
+GameDisplayPage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/PageObjects/GameDisplayPage.cs
+END
+BetOnHandPage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/PageObjects/BetOnHandPage.cs
+END
+AccountHomePage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/PageObjects/AccountHomePage.cs
+END
+LoginPage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/PageObjects/LoginPage.cs
+END
+RegistrationPage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/PageObjects/RegistrationPage.cs
+END

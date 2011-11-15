@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/Mapping/Views/Betting
+END
+BetOnBlackJackTableView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/Mapping/Views/Betting/BetOnBlackJackTableView.hbm.xml
+END
+PlayersBetsView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/Mapping/Views/Betting/PlayersBetsView.hbm.xml
+END

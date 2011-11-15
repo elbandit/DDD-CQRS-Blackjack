@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/87754/Libs/Watin.2.0.20.1089
+END
+Microsoft.mshtml.dll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/87754/Libs/Watin.2.0.20.1089/Microsoft.mshtml.dll
+END
+WatiN.Core.dll
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/87754/Libs/Watin.2.0.20.1089/WatiN.Core.dll
+END
+WatiN.Core.UnitTests.dll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/87754/Libs/Watin.2.0.20.1089/WatiN.Core.UnitTests.dll
+END
+Interop.SHDocVw.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/87754/Libs/Watin.2.0.20.1089/Interop.SHDocVw.dll
+END
+WatiN.Core.UnitTests.dll.config
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/87754/Libs/Watin.2.0.20.1089/WatiN.Core.UnitTests.dll.config
+END
+WatiN.Core.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/87754/Libs/Watin.2.0.20.1089/WatiN.Core.xml
+END

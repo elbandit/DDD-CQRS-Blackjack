@@ -1,0 +1,352 @@
+﻿/* Site Layout */
+html { height: 100%;  margin-bottom: 1px; }
+
+body {
+    background:url("/images/retro_background.gif") repeat fixed 50% 0 #EFEFEF;	
+	margin: 0 auto;	
+	padding:0;	
+	color:#333333;	
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:100%; 
+}
+
+#main { margin: 0px auto; border:0; width: 840px; padding-bottom:100px;  }
+#header { margin-top : 10px; height: 76px; font-size:500%; font-weight :bold; border-bottom:3px solid #333333;    }
+#rightheader {float: right; font-size:20%; font-weight : normal; margin-top: 20px;}
+
+.logo 
+{
+    text-align : center;
+}
+    
+.info
+{
+    background-color: #CCFFCC;
+    border-top: 1px solid #FFCC66;
+    border-bottom: 4px solid #FFCC66;
+    padding: 6px;
+    font-family: helvetica;
+    font-size: 1.1em;
+    text-align: center;
+    border-top-color: #006600;
+    border-bottom-color: #006600;
+    font-weight: bold;
+    color: #339933;
+    cursor:pointer;
+}
+.warning
+{
+    background-color: #FFFF99;
+    border-top: 1px solid #FFCC66;
+    border-bottom: 4px solid #FFCC66;
+    padding: 6px;
+    font-family: helvetica;
+    font-size: 0.9em;
+    text-align: center;
+    border-top-color: #CC9900;
+    border-bottom-color: #CC9900;
+    font-weight: bold;
+    color: #663300;
+    cursor:pointer;
+}
+.error
+{
+    background-color: #FFCC99;
+    border-top: 1px solid #FFCC66;
+    border-bottom: 4px solid #FFCC66;
+    padding: 4px;
+    font-family: helvetica;
+    font-size: 1.1em;
+    text-align: center;
+    border-top-color: #800000;
+    border-bottom-color: #800000;
+    font-weight: bold;
+    color: #990000;
+    cursor:pointer;
+}
+
+#content 	
+{    	
+    margin-bottom : 20px;
+    background:none repeat scroll 0 0 #FFF2D9; 		
+    /*background-color: #339933;*/
+	float: left;
+	width: 840px;		
+    /*padding-top:1em;    */
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;         
+}
+
+.betting 
+{    	  
+    text-align : center;
+}
+
+.pot_amount
+{
+    margin-bottom : 5px;
+    font-weight : bold;    
+}
+
+#playerspot
+{
+    width: 840px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    text-align : center;
+}
+
+#playeroptionzone
+{
+    width: 840px;
+    margin-bottom : 10px;
+}
+
+#table 
+{    
+    background:url("/images/Blackjack-Table.png") no-repeat;         
+	float: left;
+	width: 840px;
+	height: 450px;
+	/*margin-left:5px;
+	margin-right:5px;  
+	margin-bottom : 5px;
+    margin-top : 5px;  */
+    background-color: #669A40;  
+    color :#fff;  
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px; 
+}
+
+#leftCol 
+{
+    margin-bottom : 10px;
+	float: left;
+	width: 410px;	
+	margin-left:5px;
+	margin-right:5px;
+    padding-top:1em;       
+}
+
+#rightCol {
+    margin-bottom : 10px;
+	float: right;
+	width: 410px;	
+	margin-left:5px;
+	margin-right:5px;
+    padding-top:1em;     
+}
+
+#col1{
+    margin: 0 5px;
+	float: left;
+	width: 270px;	
+	padding-top:1em;  
+}
+
+#col2{
+    margin: 0 5px;
+	float: left;
+	width: 270px;	
+	padding-top:1em;  
+}
+
+#col3{
+    margin: 0 5px;
+	float: left;
+	width: 270px;	
+	padding-top:1em;  
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   margin: 0px auto; 
+   padding: 0px; 
+   border:0;
+   width:100%;
+   height:100px;   /* Height of the footer */
+   background:#EEEEEE;   
+}
+
+#innerfooter {
+    margin: 0px auto; padding: 0px; border:0; width: 840px; 
+}
+
+.footer-list-header {list-style-type: none;	font-weight : bold;	font-size:0.9em }
+
+.titleBlock {
+    background : #EEEEEE;    
+    font-size:200%;
+    border-bottom:1px solid #CCCCCC; 
+    text-indent : 5px;     
+}
+
+.subtitle
+{          
+    font-size:200%;
+    border-bottom:1px solid #CCCCCC;         
+}
+
+.welcomemessage{
+    background : #EEEEEE;    
+    font-size:200%;
+    border-bottom:1px solid #CCCCCC; 
+    border-top:1px solid #CCCCCC; 
+    margin-left : 5px;
+    margin-right : 5px;
+    text-indent : 5px;     
+}
+
+.handtitle 
+{            
+    padding: 0;
+    text-align : center;
+    font-size:150%;     
+}
+
+.newgamebutton 
+{
+    margin: 0;
+    padding: 0;
+    text-align : center; 
+}
+
+.newgamebutton form
+{
+    margin: 0;
+    padding: 0;
+    text-align : center;
+    display: inline;
+}
+
+.activehand 
+{
+    margin: 0;
+    padding: 0;
+    text-align : center;
+}
+
+.player_hand_status_A 
+{
+    margin: 0;
+    padding: 0;
+    text-align : center;
+}
+
+.player_hand_status_B
+{
+    margin: 0;
+    padding: 0;
+    text-align : center;
+}
+
+
+.clear {clear:both;}
+
+.basic-btn
+{
+	clear: both;	
+	margin-top: 30px;
+	color: #111;
+	text-shadow: 1px 1px #fff;
+	padding: 10px 60px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+.dealers_hand
+{
+    margin-top: 5px;
+    height: 265px;
+}
+
+.dealers_hand ul
+{    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;    
+}
+
+.dealers_hand ul li { display: inline; padding :10px; }
+
+.players_hand_A ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.players_hand_A ul li { display: inline; padding :10px; }
+
+.players_hand_B ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.players_hand_B ul li { display: inline; padding :10px; }
+
+.cards 
+{
+   /* margin: 0;
+    padding: 0;       */
+}
+
+.playinghands 
+{    
+    padding: 0;
+    margin: 0 auto;    
+    display: inline;
+}
+
+.playinghands ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;    
+    display: inline;
+}
+
+.playinghands ul li { display: inline; padding :10px; }
+
+.playinghands ul li img { display: inline;  }
+
+.playerscards
+{
+    margin: 0 auto;
+    text-align: center;
+    display: inline;   
+}
+
+.playerscards ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;    
+}
+
+.playerscards ul li { display: inline; padding :10px;}
+
+.playeractions ul
+{    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;    
+}
+
+.playeractions ul li { display: inline; padding :10px; }
+
+.playeractions ul li form { display: inline;  }

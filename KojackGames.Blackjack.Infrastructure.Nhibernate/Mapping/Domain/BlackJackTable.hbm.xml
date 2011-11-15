@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="KojackGames.Blackjack.Domain.GamePlay.Model"
+        assembly="KojackGames.Blackjack.Domain">
+
+  <class name="BlackJackTable" table="BlackJackTables" lazy="false" >
+
+    <id name="id" type="Guid">      
+    </id>
+
+    <version column="version" name ="version_id" />
+            
+    <many-to-one name="player"                   
+                 unique="true"                  
+                 class="KojackGames.Blackjack.Domain.Membership.Model.Player">
+      <!-- Use many-to-one for a foreign key -->
+      <column name="player_token" />
+    </many-to-one>
+
+    <component class="TableStatus" name="status">
+      <property name="id" column="state_id"/>
+      <property name="can_accept_bet" column="can_accept_bet"/>
+      <property name="can_deal" column="can_deal"/>
+      <property name="finished" column="finished"/>      
+      <property name="name" column="state_name"/>            
+    </component>
+                      
+   
+    <component access="field" class="CardShoe" name="_card_shoe" lazy="false">
+      
+      <component access="field" class="KojackGames.Blackjack.Domain.GamePlay.Model.CardDeck.Deck" name="_deck" lazy="false">
+
+        <bag name="_cards_in_deck" table="Decks" access="field" lazy="false">
+          <key column="blackjack_table_id"/>                              
+          <composite-element class="KojackGames.Blackjack.Domain.GamePlay.Model.CardDeck.DeckPosition, KojackGames.Blackjack.Domain">
+            
+            <property name="position_in_pack" column="position_in_pack"/>
+
+            <nested-composite-element class="KojackGames.Blackjack.Domain.GamePlay.Model.CardDeck.Card" name="card">
+              <property name="suit"/>
+              <property name="card_value"/>
+            </nested-composite-element>
+            
+          </composite-element>
+        </bag>
+      </component>
+    </component>
+
+
+    <component access="field" name="_playing_positions" class="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.PlayingPositions" lazy ="false">
+
+      <property name="_cards_dealt"  access="field" column="cards_dealt"/>
+
+      <bag name="_hands" access="field" inverse="true" cascade="all-delete-orphan" lazy="false" >
+          <key column="blackjack_table_id"/>
+          <one-to-many class="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Hand"></one-to-many>
+      </bag>      
+    </component>
+  
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps
+END
+RegistrationLogSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/RegistrationLogSteps.cs
+END
+AccountSetUpSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/AccountSetUpSteps.cs
+END
+LogOnSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/LogOnSteps.cs
+END
+GameDisplaySteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/GameDisplaySteps.cs
+END
+GamePlaySteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/GamePlaySteps.cs
+END
+NavigationSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/NavigationSteps.cs
+END
+CardDeckSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/CardDeckSteps.cs
+END
+RegisterPlayerSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/RegisterPlayerSteps.cs
+END
+AccountHomeSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/AccountHomeSteps.cs
+END
+GameSetUpSteps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Steps/GameSetUpSteps.cs
+END

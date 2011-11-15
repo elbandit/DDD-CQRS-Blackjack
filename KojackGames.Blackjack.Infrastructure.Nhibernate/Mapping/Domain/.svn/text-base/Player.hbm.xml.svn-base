@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="KojackGames.Blackjack.Domain.Membership.Model"
+        assembly="KojackGames.Blackjack.Domain">
+
+  <class name="Player" table="Players" lazy="false" >
+
+    <id name="id" type="Guid">
+    </id>
+
+    <version column="version" name ="version_id" />
+    <property name="dollars_in_pot" type="decimal" />
+    <property name="name" />
+
+    <one-to-one name="current_game"
+                constrained="false"
+                foreign-key="none"
+                class="KojackGames.Blackjack.Domain.GamePlay.Model.BlackJackTable" />
+
+  </class>
+
+</hibernate-mapping>

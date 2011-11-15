@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="KojackGames.Blackjack.Domain.DomainViews.Account"
+        assembly="KojackGames.Blackjack.Domain">
+
+  <class name="AccountView" table="Players" mutable="false" lazy="false" >
+
+    <id column="id"  name="player_token" type="Guid">
+    </id>
+
+    <property column="dollars_in_pot" name="dollars_in_pot"/>
+    <property column="name" name="name"/>
+    
+  </class>
+ 
+</hibernate-mapping>

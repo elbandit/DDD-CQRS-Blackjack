@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/BlackJackTable_Specs/Betting
+END
+when_betting_on_a_table_with_a_free_position.cs
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/BlackJackTable_Specs/Betting/when_betting_on_a_table_with_a_free_position.cs
+END
+when_betting_on_a_table_without_a_free_position.cs
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/BlackJackTable_Specs/Betting/when_betting_on_a_table_without_a_free_position.cs
+END

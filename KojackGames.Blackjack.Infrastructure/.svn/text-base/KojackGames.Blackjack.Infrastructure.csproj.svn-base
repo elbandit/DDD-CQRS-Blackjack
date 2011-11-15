@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C2B4832-4DC8-4B58-B846-D7126585EDDC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KojackGames.Blackjack.Infrastructure</RootNamespace>
+    <AssemblyName>KojackGames.Blackjack.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\KojackGames.Blackjack.Infrastructure.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Libs\structuremap.2.6.1.0\lib\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authentication\AspFormsAuthentication.cs" />
+    <Compile Include="Authentication\AspMembershipAuthorisation.cs" />
+    <Compile Include="Authentication\HttpPlayerAuthenticator.cs" />
+    <Compile Include="Authentication\IFormsAuthentication.cs" />
+    <Compile Include="Authentication\ILocalAuthenticationService.cs" />
+    <Compile Include="Authentication\User.cs" />
+    <Compile Include="Cqrs\Command\ICommandHandlerRegistry.cs" />
+    <Compile Include="Cqrs\Command\StructureMapCommandHandlerRegistry.cs" />
+    <Compile Include="Cqrs\Command\InProcessCommandBus.cs" />
+    <Compile Include="Cqrs\Command\ICommand.cs" />
+    <Compile Include="Cqrs\Command\ICommandBus.cs" />
+    <Compile Include="Cqrs\Command\ICommandHandler.cs" />
+    <Compile Include="Cqrs\Query\IDomainEvent.cs" />
+    <Compile Include="Cqrs\Query\IDomainEventHandler.cs" />
+    <Compile Include="Cqrs\Query\IDomainEventHandlerRegistry.cs" />
+    <Compile Include="Cqrs\Query\IQueryService.cs" />
+    <Compile Include="Authentication\IPlayerAuthenticator.cs" />
+    <Compile Include="Cqrs\Query\IReadRepository.cs" />
+    <Compile Include="Cqrs\Query\StructureMapDomainEventHandlerRegistry.cs" />
+    <Compile Include="Domain\DomainBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Domain\DomainEvents.cs" />
+    <Compile Include="Domain\IEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Domain\IRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Domain\ISpecification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\ComparisonExtensions.cs" />
+    <Compile Include="Helpers\EnumParser.cs" />
+    <Compile Include="IUnitOfWork.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IUnitOfWorkFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

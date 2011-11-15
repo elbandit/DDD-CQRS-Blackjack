@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication
+END
+User.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication/User.cs
+END
+IFormsAuthentication.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication/IFormsAuthentication.cs
+END
+IPlayerAuthenticator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication/IPlayerAuthenticator.cs
+END
+ILocalAuthenticationService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication/ILocalAuthenticationService.cs
+END
+HttpPlayerAuthenticator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication/HttpPlayerAuthenticator.cs
+END
+AspMembershipAuthorisation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication/AspMembershipAuthorisation.cs
+END
+AspFormsAuthentication.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Authentication/AspFormsAuthentication.cs
+END

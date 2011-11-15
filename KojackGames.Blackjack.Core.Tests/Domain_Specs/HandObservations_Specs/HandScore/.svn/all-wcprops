@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/HandScore
+END
+when_determining_the_score_of_a_hand_which_holds_two_aces.cs
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/HandScore/when_determining_the_score_of_a_hand_which_holds_two_aces.cs
+END
+when_determining_the_score_of_a_hand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/HandScore/when_determining_the_score_of_a_hand.cs
+END
+when_determining_the_score_of_a_hand_which_holds_an_ace.cs
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/HandScore/when_determining_the_score_of_a_hand_which_holds_an_ace.cs
+END

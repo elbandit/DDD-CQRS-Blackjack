@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/StateBuilder
+END
+GameBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/StateBuilder/GameBuilder.cs
+END
+DealersHandBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/StateBuilder/DealersHandBuilder.cs
+END
+HandBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/StateBuilder/HandBuilder.cs
+END
+PlayersBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/StateBuilder/PlayersBuilder.cs
+END

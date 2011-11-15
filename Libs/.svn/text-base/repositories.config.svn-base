@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repositories>
+  <repository path="..\Projects\Trunk\AgileNet.Ch04.LoanRepaymentCalculator\AgileNet.Ch04.LoanRepaymentCalculator.Core.Tests\packages.config" />
+  <repository path="..\Projects\Trunk\AgileNet.Ch04.LoanRepaymentCalculator\AgileNet.Ch04.LoanRepaymentCalculator.Acceptance.Tests\packages.config" />
+  <repository path="..\Projects\Trunk\AgileNet.Ch04.LoanRepaymentCalculator\AgileNet.Ch04.LoanRepaymentCalculator.Ui.Mvc\packages.config" />
+  <repository path="..\Projects\Ch04\Trunk\AgileNet.Ch04.LoanRepaymentCalculator\AgileNet.Ch04.LoanRepaymentCalculator.Core.Tests\packages.config" />
+  <repository path="..\Projects\Ch04\Trunk\AgileNet.Ch04.LoanRepaymentCalculator\AgileNet.Ch04.LoanRepaymentCalculator.Acceptance.Tests\packages.config" />
+  <repository path="..\Projects\Ch04\Trunk\AgileNet.Ch04.LoanRepaymentCalculator\AgileNet.Ch04.LoanRepaymentCalculator.Ui.Mvc\packages.config" />
+</repositories>

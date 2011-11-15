@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model
+END
+TableStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/TableStatus.cs
+END
+BlackJackTable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/BlackJackTable.cs
+END
+IBlackJackTableFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/IBlackJackTableFactory.cs
+END
+IllegalMoveException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/IllegalMoveException.cs
+END
+ICardShoe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/ICardShoe.cs
+END
+ITableStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/ITableStatus.cs
+END
+BlackJackTableFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/BlackJackTableFactory.cs
+END
+NotEnoughFundsException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/NotEnoughFundsException.cs
+END
+IBlackJackTable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/IBlackJackTable.cs
+END
+CardShoe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/CardShoe.cs
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/Account
+END
+AccountLogOnController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/Account/AccountLogOnController.cs
+END
+AccountRegisterController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/Account/AccountRegisterController.cs
+END
+AccountHomeController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/Account/AccountHomeController.cs
+END

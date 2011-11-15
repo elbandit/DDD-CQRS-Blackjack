@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition/Hands/Player
+END
+HandLetters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition/Hands/Player/HandLetters.cs
+END
+IPlayersHand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition/Hands/Player/IPlayersHand.cs
+END
+Chips.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition/Hands/Player/Chips.cs
+END
+PlayersHand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition/Hands/Player/PlayersHand.cs
+END

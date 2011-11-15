@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84E4D508-7223-45DA-961B-800022738DE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KojackGames.Blackjack.Domain</RootNamespace>
+    <AssemblyName>KojackGames.Blackjack.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\KojackGames.Blackjack.Domain.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GamePlay\CommandHandlers\BetHandler.cs" />
+    <Compile Include="GamePlay\CommandHandlers\ClearFinishedGameCommandHandler.cs" />
+    <Compile Include="GamePlay\CommandHandlers\DoubleDownHandler.cs" />
+    <Compile Include="GamePlay\CommandHandlers\HitHandHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GamePlay\CommandHandlers\SplitHandHandler.cs" />
+    <Compile Include="GamePlay\CommandHandlers\StickHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GamePlay\CommandHandlers\TakeInsuranceHandler.cs" />
+    <Compile Include="GamePlay\Commands\BetCommand.cs" />
+    <Compile Include="GamePlay\Commands\ClearFinishedGameCommand.cs" />
+    <Compile Include="GamePlay\Commands\DealCommand.cs" />
+    <Compile Include="DomainViews\Account\AccountView.cs" />
+    <Compile Include="DomainViews\BettingView\BetOnBlackJackTableView.cs" />
+    <Compile Include="DomainViews\BettingView\BetView.cs" />
+    <Compile Include="DomainViews\InPlayView\CardView.cs" />
+    <Compile Include="DomainViews\InPlayView\DealersHandView.cs" />
+    <Compile Include="DomainViews\InPlayView\HandView.cs" />
+    <Compile Include="DomainViews\InPlayView\PlayersHandView.cs" />
+    <Compile Include="GamePlay\Commands\DoubleDownCommand.cs" />
+    <Compile Include="GamePlay\Commands\SplitHandCommand.cs" />
+    <Compile Include="GamePlay\Commands\TakeInsuranceCommand.cs" />
+    <Compile Include="GamePlay\Model\BlackJackTableFactory.cs" />
+    <Compile Include="GamePlay\Model\CardDeck\DeckPosition.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\DealCardsIn.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\DealerActionOnPlayersHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\DoubleDown.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\HitHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\IPlayDealersHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\PlayDealersHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\SplitHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\StickHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\IDealerAction.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\TakeInsuranceForPlayer.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\CanDoubleDown.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\CanSplit.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\CanTakeInsurance.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\HandScorer.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\ICanDoubleDown.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\ICanSplit.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\ICanTakeInsurance.cs" />
+    <Compile Include="GamePlay\Model\IBlackJackTable.cs" />
+    <Compile Include="GamePlay\Model\IllegalMoveException.cs" />
+    <Compile Include="GamePlay\Model\ITableStatus.cs" />
+    <Compile Include="GamePlay\Model\NotEnoughFundsException.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Dealer\IDealersHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\IHandScorer.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\IAnnouceWinnerAction.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\CanHitDealer.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\ICanHitDealerSpecification.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Actions\AnnouceWinnerAction.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Dealer\DealersHand.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\HasBlackJack.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\HasBust.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\HasSoftBlackJack.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\IHasBlackjackSpecification.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\IHasBustedSpecification.cs" />
+    <Compile Include="GamePlay\Model\Dealer\Observations\IHasSoftBlackJackSpecification.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Player\HandLetters.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Status\HandStatusFactory.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Status\IHandStatusFactory.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Hand.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\PlayingPositions.cs" />
+    <Compile Include="GamePlay\Model\CardShoe.cs" />
+    <Compile Include="GamePlay\Model\CardDeck\CardValue.cs" />
+    <Compile Include="GamePlay\Model\CardDeck\Deck.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\HandFactory.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Status\HandStatus.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\IPlayingPositions.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\IHandFactory.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Player\IPlayersHand.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Player\PlayersHand.cs" />
+    <Compile Include="GamePlay\Commands\StickHandCommand.cs" />
+    <Compile Include="GamePlay\Commands\HitHandCommand.cs" />
+    <Compile Include="GamePlay\Model\IBlackJackTableFactory.cs" />
+    <Compile Include="GamePlay\CommandHandlers\DealHandler.cs" />
+    <Compile Include="GamePlay\Model\CardDeck\Card.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\IHand.cs" />
+    <Compile Include="GamePlay\Model\ICardShoe.cs" />
+    <Compile Include="GamePlay\Model\CardDeck\Suit.cs" />
+    <Compile Include="GamePlay\Model\PlayingPosition\Hands\Player\Chips.cs" />
+    <Compile Include="DomainViews\InPlayView\BlackJackTableView.cs" />
+    <Compile Include="GamePlay\Model\BlackJackTable.cs" />
+    <Compile Include="GamePlay\Model\TableStatus.cs" />
+    <Compile Include="Membership\CommandHandlers\CashInHandler.cs" />
+    <Compile Include="Membership\CommandHandlers\RegisterPlayerHandler.cs" />
+    <Compile Include="Membership\Commands\CashInCommand.cs" />
+    <Compile Include="Membership\Commands\RegisterPlayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Membership\Events\HandResultEvent.cs" />
+    <Compile Include="Membership\Model\IPlayer.cs" />
+    <Compile Include="Membership\Model\Player.cs" />
+    <Compile Include="Membership\Events\PlayerRegisteredEvent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KojackGames.Blackjack.Infrastructure\KojackGames.Blackjack.Infrastructure.csproj">
+      <Project>{3C2B4832-4DC8-4B58-B846-D7126585EDDC}</Project>
+      <Name>KojackGames.Blackjack.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GamePlay\UML.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

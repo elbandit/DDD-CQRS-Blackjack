@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/87754/Libs/NUnit.2.5.7.10213/lib
+END
+nunit.mocks.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/87754/Libs/NUnit.2.5.7.10213/lib/nunit.mocks.dll
+END
+nunit.framework.dll
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/87754/Libs/NUnit.2.5.7.10213/lib/nunit.framework.dll
+END
+pnunit.framework.dll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/87754/Libs/NUnit.2.5.7.10213/lib/pnunit.framework.dll
+END
+nunit.framework.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/87754/Libs/NUnit.2.5.7.10213/lib/nunit.framework.xml
+END

@@ -1,0 +1,101 @@
+10
+
+dir
+88413
+https://agilenet.svn.codeplex.com/svn/Libs
+https://agilenet.svn.codeplex.com/svn
+
+
+
+2011-04-19T19:56:42.027000Z
+87754
+unknown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81e6e737-5a20-4d0f-a97c-cb01297b46e0
+
+Antlr.3.1.3.42154
+dir
+
+structuremap.2.6.1.0
+dir
+
+MvcContrib.WatiN.2.0.96.0
+dir
+
+SpecFlow.1.5.0.0
+dir
+
+Watin.2.0.20.1089
+dir
+
+RhinoMocks.3.6
+dir
+
+Iesi.Collections.1.0.1
+dir
+
+Castle.Core.2.5.1
+dir
+
+Cassini
+dir
+
+NUnit.2.5.7.10213
+dir
+
+FluentNHibernate.1.1.1.694
+dir
+
+Machine.Specifications.0.4.9.0
+dir
+
+repositories.config
+file
+
+
+
+
+2011-05-03T19:33:07.428833Z
+65c1cfd82f11b1bb23f34f0dc6d7c529
+2011-04-19T19:56:42.027000Z
+87754
+unknown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+969
+
+NHibernate.3.0.0.2001
+dir
+

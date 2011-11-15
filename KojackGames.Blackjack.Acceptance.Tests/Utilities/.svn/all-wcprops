@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities
+END
+SessionFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/SessionFactory.cs
+END
+WebSiteFileLocation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/WebSiteFileLocation.cs
+END
+PlayerToken.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/PlayerToken.cs
+END
+SiteNavigator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/SiteNavigator.cs
+END
+WebBrowser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/WebBrowser.cs
+END
+DataBaseHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/DataBaseHelper.cs
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Query
+END
+IQueryService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Query/IQueryService.cs
+END
+StructureMapDomainEventHandlerRegistry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Query/StructureMapDomainEventHandlerRegistry.cs
+END
+IDomainEventHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Query/IDomainEventHandler.cs
+END
+IDomainEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Query/IDomainEvent.cs
+END
+IReadRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Query/IReadRepository.cs
+END
+IDomainEventHandlerRegistry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Query/IDomainEventHandlerRegistry.cs
+END

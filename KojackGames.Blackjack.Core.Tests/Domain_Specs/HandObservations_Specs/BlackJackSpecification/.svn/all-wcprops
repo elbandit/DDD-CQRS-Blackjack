@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/BlackJackSpecification
+END
+when_checking_for_blackjack_with_two_cards_that_do_not_make_blackjack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/BlackJackSpecification/when_checking_for_blackjack_with_two_cards_that_do_not_make_blackjack.cs
+END
+when_checking_for_blackjack_with_two_cards_that_make_blackjack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/BlackJackSpecification/when_checking_for_blackjack_with_two_cards_that_make_blackjack.cs
+END

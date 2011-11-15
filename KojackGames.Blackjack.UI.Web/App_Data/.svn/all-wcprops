@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/App_Data
+END
+ASPNETDB.MDF
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/App_Data/ASPNETDB.MDF
+END
+aspnetdb_log.ldf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/App_Data/aspnetdb_log.ldf
+END
+Blackjack.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/App_Data/Blackjack.mdf
+END
+Blackjack_log.ldf
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/App_Data/Blackjack_log.ldf
+END

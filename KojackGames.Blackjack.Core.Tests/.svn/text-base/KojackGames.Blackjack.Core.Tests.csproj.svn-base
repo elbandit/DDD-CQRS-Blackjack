@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8290AA23-5586-4754-A5D8-2E5817B36476}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KojackGames.Blackjack.Core.Tests</RootNamespace>
+    <AssemblyName>KojackGames.Blackjack.Core.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Machine.Specifications">
+      <HintPath>..\..\..\..\Libs\Machine.Specifications.0.4.9.0\lib\Machine.Specifications.dll</HintPath>
+    </Reference>
+    <Reference Include="MvcContrib.WatiN">
+      <HintPath>..\..\..\..\Libs\MvcContrib.WatiN.2.0.96.0\lib\MvcContrib.WatiN.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Libs\NUnit.2.5.7.10213\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\..\..\..\Libs\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller_Specs\route_mapping_specs.cs" />
+    <Compile Include="Controller_Specs\Bet\when_betting_on_a_hand.cs" />
+    <Compile Include="Controller_Specs\Bet\with_a_BetController.cs" />
+    <Compile Include="Domain_Specs\BlackJackTable_Specs\Betting\when_betting_on_a_table_without_a_free_position.cs" />
+    <Compile Include="Domain_Specs\BlackJackTable_Specs\DealerPerformsAction\when_performing_an_action_on_a_players_hand_that_is_legal.cs" />
+    <Compile Include="Domain_Specs\Chip_Specs\when_calculating_a_players_winnings_of_3_to_2_on_a_5_dollar_wager.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealCardsIn\when_a_players_hand_meets_the_criteria_to_double_after_dealing.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealCardsIn\when_a_players_hand_meets_the_criteria_to_split_after_dealing.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealCardsIn\when_a_players_hand_meets_the_criteria_to_take_insurance_after_dealing.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DetermineWinner\when_a_dealer_has_blackjack.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DetermineWinner\with_AnnouceWinnerAction.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\InsuranceBet\when_checking_if_a_player_can_take_insurance_on_a_dealers_hand_with_an_ace.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\when_performing_an_action_on_a_players_hand.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DetermineWinner\when_a_dealer_and_player_have_blackjack.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DetermineWinner\when_a_player_and_dealer_have_bust.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DetermineWinner\when_a_player_has_blackjack.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DetermineWinner\when_a_player_has_stuck_at_18_and_a_dealer_has_stuck_at_19.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\BlackJackSpecification\when_checking_for_blackjack_with_two_cards_that_do_not_make_blackjack.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\BlackJackSpecification\when_checking_for_blackjack_with_two_cards_that_make_blackjack.cs" />
+    <Compile Include="Domain_Specs\BlackJackTable_Specs\Betting\when_betting_on_a_table_with_a_free_position.cs" />
+    <Compile Include="Domain_Specs\BlackJackTable_Specs\DealerPerformsAction\when_performing_an_action_on_a_players_hand_that_causes_the_end_of_the_game.cs" />
+    <Compile Include="Domain_Specs\BlackJackTable_Specs\on_a_blackjacktable.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\BustSpecification\when_checking_that_a_hand_over_21_has_bust.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\BustSpecification\when_checking_that_a_hand_under_21_has_bust.cs" />
+    <Compile Include="Domain_Specs\Card_Specs\when_checking_the_value_of_a_face_card.cs" />
+    <Compile Include="Domain_Specs\DealersHand_Specs\when_adding_a_second_card_to_a_dealers_hand.cs" />
+    <Compile Include="Domain_Specs\DealersHand_Specs\when_adding_the_first_card_to_a_dealers_hand.cs" />
+    <Compile Include="Domain_Specs\DealersHand_Specs\when_showing_the_card_in_the_hole.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealCardsIn\when_dealing_in_the_hands.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealCardsIn\when_dealing_in_the_hands_and_one_achieves_blackjack.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealerPlay\when_checking_if_a_dealer_with_a_score_of_18_can_take_another_card.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealerPlay\when_playing_the_dealers_hand_that_has_hit_threshold.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealerPlay\when_playing_the_dealers_hand_that_has_not_hit_threshold.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealerPlay\with_the_PlayDealersHandAction.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\HitHand\when_hitting_the_players_hand.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\HitHand\with_a_hit_hand_action.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\StickHand\when_sticking_a_hand.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\DealCardsIn\with_a_deal_in_cards_action.cs" />
+    <Compile Include="Domain_Specs\DealerAction_Specs\StickHand\with_a_stick_action.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\DoubleDownSpecification\when_checking_if_a_hand_with_3_cards_can_double_down.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\DoubleDownSpecification\when_checking_if_a_hand_with_a_score_of_11_with_an_ace_can_double_down.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\DoubleDownSpecification\when_checking_if_a_hand_with_a_score_of_12_can_double_down.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\DoubleDownSpecification\when_checking_if_a_hand_with_a_score_of_8_can_double_down.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\HandScore\when_determining_the_score_of_a_hand.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\HandScore\when_determining_the_score_of_a_hand_which_holds_an_ace.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\HandScore\when_determining_the_score_of_a_hand_which_holds_two_aces.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\SoftBlackJackSpecification\when_checking_for_blackjack_with_a_hand_that_contains_two_aces.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\SplitSpecification\when_checking_if_a_hand_without_a_pair_can_split.cs" />
+    <Compile Include="Domain_Specs\HandObservations_Specs\SplitSpecification\when_checking_if_a_hand_with_a_pair_can_split.cs" />
+    <Compile Include="Domain_Specs\PlayingPositions_Specs\when_checking_if_there_is_a_free_position_without_available_position.cs" />
+    <Compile Include="Domain_Specs\PlayingPositions_Specs\when_checking_if_there_is_a_free_position_with_available_position.cs" />
+    <Compile Include="Infrastructure_Specs\when_creating_an_card_suit_enum_from_a_string.cs" />
+    <Compile Include="Infrastructure_Specs\when_creating_an_card_value_enum_from_a_string.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KojackGames.Blackjack.Domain\KojackGames.Blackjack.Domain.csproj">
+      <Project>{84E4D508-7223-45DA-961B-800022738DE0}</Project>
+      <Name>KojackGames.Blackjack.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KojackGames.Blackjack.Infrastructure\KojackGames.Blackjack.Infrastructure.csproj">
+      <Project>{3C2B4832-4DC8-4B58-B846-D7126585EDDC}</Project>
+      <Name>KojackGames.Blackjack.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KojackGames.Blackjack.UI.Web\KojackGames.Blackjack.UI.Web.csproj">
+      <Project>{8133481C-8FB4-4F2A-9199-E52B913687A3}</Project>
+      <Name>KojackGames.Blackjack.UI.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller_Specs\BlackJackTableGameView\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

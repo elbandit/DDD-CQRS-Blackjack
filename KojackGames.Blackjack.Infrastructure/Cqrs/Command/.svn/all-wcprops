@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Command
+END
+ICommandHandlerRegistry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Command/ICommandHandlerRegistry.cs
+END
+InProcessCommandBus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Command/InProcessCommandBus.cs
+END
+ICommandBus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Command/ICommandBus.cs
+END
+StructureMapCommandHandlerRegistry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Command/StructureMapCommandHandlerRegistry.cs
+END
+ICommandHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Command/ICommandHandler.cs
+END
+ICommand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Cqrs/Command/ICommand.cs
+END

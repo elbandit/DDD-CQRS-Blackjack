@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/Mapping
+END
+PlayerTableRow.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/Mapping/PlayerTableRow.hbm.xml
+END
+BlackJackTableRow.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/Mapping/BlackJackTableRow.hbm.xml
+END
+MembershipEventsRow.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/Mapping/MembershipEventsRow.hbm.xml
+END
+HandTableRow.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Utilities/Mapping/HandTableRow.hbm.xml
+END

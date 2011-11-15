@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate
+END
+KojackGames.Blackjack.Infrastructure.Nhibernate.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/KojackGames.Blackjack.Infrastructure.Nhibernate.csproj
+END
+SessionFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/SessionFactory.cs
+END
+NhQueryService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/NhQueryService.cs
+END
+NhUnitOfWork.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/NhUnitOfWork.cs
+END
+NhReadRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/NhReadRepository.cs
+END
+NhRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/NhRepository.cs
+END
+NhUnitOfWorkFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/NhUnitOfWorkFactory.cs
+END

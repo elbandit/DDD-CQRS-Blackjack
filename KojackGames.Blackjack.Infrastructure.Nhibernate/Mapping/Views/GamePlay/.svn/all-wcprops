@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/Mapping/Views/GamePlay
+END
+HandView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/Mapping/Views/GamePlay/HandView.hbm.xml
+END
+BlackJackTableView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure.Nhibernate/Mapping/Views/GamePlay/BlackJackTableView.hbm.xml
+END

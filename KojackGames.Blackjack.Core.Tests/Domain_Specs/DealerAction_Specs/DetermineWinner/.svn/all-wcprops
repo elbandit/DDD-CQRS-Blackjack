@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DetermineWinner
+END
+when_a_player_and_dealer_have_bust.cs
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DetermineWinner/when_a_player_and_dealer_have_bust.cs
+END
+when_a_player_has_stuck_at_18_and_a_dealer_has_stuck_at_19.cs
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DetermineWinner/when_a_player_has_stuck_at_18_and_a_dealer_has_stuck_at_19.cs
+END
+when_a_dealer_has_blackjack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DetermineWinner/when_a_dealer_has_blackjack.cs
+END
+when_a_player_has_blackjack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DetermineWinner/when_a_player_has_blackjack.cs
+END
+when_a_dealer_and_player_have_blackjack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DetermineWinner/when_a_dealer_and_player_have_blackjack.cs
+END
+with_AnnouceWinnerAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DetermineWinner/with_AnnouceWinnerAction.cs
+END

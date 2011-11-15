@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features
+END
+002-DealCards.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/002-DealCards.feature.cs
+END
+014-PayingOut.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/014-PayingOut.feature.cs
+END
+005-WinGame.feature
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/005-WinGame.feature
+END
+001-BetAtTheStartOfAGame.feature
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/001-BetAtTheStartOfAGame.feature
+END
+011-ManageMemberAccount.feature
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/011-ManageMemberAccount.feature
+END
+005-WinGame.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/005-WinGame.feature.cs
+END
+009-Insurance.feature
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/009-Insurance.feature
+END
+021-DeckOfCards1.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/021-DeckOfCards1.feature.cs
+END
+022-MemberRegistrationData.feature
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/022-MemberRegistrationData.feature
+END
+006-DealerPlayingRules.feature
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/006-DealerPlayingRules.feature
+END
+008-Split.feature
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/008-Split.feature
+END
+001-BetAtTheStartOfAGame.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/001-BetAtTheStartOfAGame.feature.cs
+END
+010-MemberRegistration.feature
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/010-MemberRegistration.feature
+END
+009-Insurance.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/009-Insurance.feature.cs
+END
+022-MemberRegistrationData.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/022-MemberRegistrationData.feature.cs
+END
+006-DealerPlayingRules.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/006-DealerPlayingRules.feature.cs
+END
+008-Split.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/008-Split.feature.cs
+END
+010-MemberRegistration.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/010-MemberRegistration.feature.cs
+END
+007-DoubleStake.feature
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/007-DoubleStake.feature
+END
+021-DeckOfCards.feature
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/021-DeckOfCards.feature
+END
+004-StickHand.feature
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/004-StickHand.feature
+END
+007-DoubleStake.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/007-DoubleStake.feature.cs
+END
+004-StickHand.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/004-StickHand.feature.cs
+END
+003-HitHand.feature
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/003-HitHand.feature
+END
+002-DealCards.feature
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/002-DealCards.feature
+END
+011-ManageMemberAccount1.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/011-ManageMemberAccount1.feature.cs
+END
+014-PayingOut.feature
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/014-PayingOut.feature
+END
+003-HitHand.feature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/87866/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Acceptance.Tests/Features/003-HitHand.feature.cs
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay
+END
+CreateNewGameController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/CreateNewGameController.cs
+END
+InsuranceController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/InsuranceController.cs
+END
+BetController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/BetController.cs
+END
+SplitController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/SplitController.cs
+END
+StickController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/StickController.cs
+END
+BlackJackTableGameViewController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/BlackJackTableGameViewController.cs
+END
+DoubleDownController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/DoubleDownController.cs
+END
+HitController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/HitController.cs
+END
+DealController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.UI.Web/Controllers/GamePlay/DealController.cs
+END

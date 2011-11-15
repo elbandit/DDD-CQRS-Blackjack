@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/Membership/Events
+END
+HandResultEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/Membership/Events/HandResultEvent.cs
+END
+PlayerRegisteredEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/Membership/Events/PlayerRegisteredEvent.cs
+END

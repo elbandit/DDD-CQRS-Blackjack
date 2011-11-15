@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/88416/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/DomainViews/InPlayView
+END
+CardView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/88416/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/DomainViews/InPlayView/CardView.cs
+END
+DealersHandView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/88416/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/DomainViews/InPlayView/DealersHandView.cs
+END
+HandView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/88416/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/DomainViews/InPlayView/HandView.cs
+END
+PlayersHandView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/88416/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/DomainViews/InPlayView/PlayersHandView.cs
+END
+BlackJackTableView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/88416/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/DomainViews/InPlayView/BlackJackTableView.cs
+END

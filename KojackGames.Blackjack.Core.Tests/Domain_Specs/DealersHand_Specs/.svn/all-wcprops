@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealersHand_Specs
+END
+when_adding_the_first_card_to_a_dealers_hand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealersHand_Specs/when_adding_the_first_card_to_a_dealers_hand.cs
+END
+when_showing_the_card_in_the_hole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealersHand_Specs/when_showing_the_card_in_the_hole.cs
+END
+when_adding_a_second_card_to_a_dealers_hand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealersHand_Specs/when_adding_a_second_card_to_a_dealers_hand.cs
+END

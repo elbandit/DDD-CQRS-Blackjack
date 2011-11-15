@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Domain
+END
+DomainEvents.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Domain/DomainEvents.cs
+END
+DomainBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Domain/DomainBase.cs
+END
+IEntity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Domain/IEntity.cs
+END
+IRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Domain/IRepository.cs
+END
+ISpecification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Infrastructure/Domain/ISpecification.cs
+END

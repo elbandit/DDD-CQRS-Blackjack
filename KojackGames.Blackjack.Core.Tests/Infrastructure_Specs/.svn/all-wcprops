@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Infrastructure_Specs
+END
+when_creating_an_card_value_enum_from_a_string.cs
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Infrastructure_Specs/when_creating_an_card_value_enum_from_a_string.cs
+END
+when_creating_an_card_suit_enum_from_a_string.cs
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Infrastructure_Specs/when_creating_an_card_suit_enum_from_a_string.cs
+END

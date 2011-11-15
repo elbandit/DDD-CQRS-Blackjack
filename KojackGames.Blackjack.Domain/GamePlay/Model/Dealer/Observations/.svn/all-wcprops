@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations
+END
+IHasBlackjackSpecification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/IHasBlackjackSpecification.cs
+END
+IHasBustedSpecification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/IHasBustedSpecification.cs
+END
+CanSplit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/CanSplit.cs
+END
+HasSoftBlackJack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/HasSoftBlackJack.cs
+END
+ICanDoubleDown.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/ICanDoubleDown.cs
+END
+CanTakeInsurance.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/CanTakeInsurance.cs
+END
+HasBlackJack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/HasBlackJack.cs
+END
+IHandScorer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/IHandScorer.cs
+END
+CanDoubleDown.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/CanDoubleDown.cs
+END
+ICanSplit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/ICanSplit.cs
+END
+ICanTakeInsurance.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/ICanTakeInsurance.cs
+END
+IHasSoftBlackJackSpecification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/IHasSoftBlackJackSpecification.cs
+END
+HandScorer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/HandScorer.cs
+END
+HasBust.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/Dealer/Observations/HasBust.cs
+END

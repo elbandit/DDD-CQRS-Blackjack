@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealerPlay
+END
+when_checking_if_a_dealer_with_a_score_of_18_can_take_another_card.cs
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealerPlay/when_checking_if_a_dealer_with_a_score_of_18_can_take_another_card.cs
+END
+when_playing_the_dealers_hand_that_has_hit_threshold.cs
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealerPlay/when_playing_the_dealers_hand_that_has_hit_threshold.cs
+END
+when_playing_the_dealers_hand_that_has_not_hit_threshold.cs
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealerPlay/when_playing_the_dealers_hand_that_has_not_hit_threshold.cs
+END
+with_the_PlayDealersHandAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/DealerPlay/with_the_PlayDealersHandAction.cs
+END

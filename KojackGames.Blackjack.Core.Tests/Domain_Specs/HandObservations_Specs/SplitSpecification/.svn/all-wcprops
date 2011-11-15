@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/SplitSpecification
+END
+when_checking_if_a_hand_without_a_pair_can_split.cs
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/SplitSpecification/when_checking_if_a_hand_without_a_pair_can_split.cs
+END
+when_checking_if_a_hand_with_a_pair_can_split.cs
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/SplitSpecification/when_checking_if_a_hand_with_a_pair_can_split.cs
+END

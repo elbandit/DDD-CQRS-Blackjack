@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers
+END
+StickHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/StickHandler.cs
+END
+HitHandHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/HitHandHandler.cs
+END
+DoubleDownHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/88026/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/DoubleDownHandler.cs
+END
+DealHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/DealHandler.cs
+END
+SplitHandHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/88018/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/SplitHandHandler.cs
+END
+ClearFinishedGameCommandHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/88007/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/ClearFinishedGameCommandHandler.cs
+END
+BetHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/BetHandler.cs
+END
+TakeInsuranceHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/88309/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/CommandHandlers/TakeInsuranceHandler.cs
+END

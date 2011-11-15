@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/DoubleDownSpecification
+END
+when_checking_if_a_hand_with_3_cards_can_double_down.cs
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/DoubleDownSpecification/when_checking_if_a_hand_with_3_cards_can_double_down.cs
+END
+when_checking_if_a_hand_with_a_score_of_11_with_an_ace_can_double_down.cs
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/DoubleDownSpecification/when_checking_if_a_hand_with_a_score_of_11_with_an_ace_can_double_down.cs
+END
+when_checking_if_a_hand_with_a_score_of_12_can_double_down.cs
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/DoubleDownSpecification/when_checking_if_a_hand_with_a_score_of_12_can_double_down.cs
+END
+when_checking_if_a_hand_with_a_score_of_8_can_double_down.cs
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/DoubleDownSpecification/when_checking_if_a_hand_with_a_score_of_8_can_double_down.cs
+END

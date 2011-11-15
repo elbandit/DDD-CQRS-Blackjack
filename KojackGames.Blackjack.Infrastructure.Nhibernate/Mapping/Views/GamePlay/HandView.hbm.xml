@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="KojackGames.Blackjack.Domain.DomainViews.InPlayView"
+        assembly="KojackGames.Blackjack.Domain">
+
+  <class name="HandView" table="Hands" mutable="false" lazy="false">
+
+    <id name="id" type="Guid">      
+    </id>
+
+    <discriminator column="Discriminator"
+        not-null="true"
+        type="System.String"/>
+
+    <property name="state" column ="state_name"/>
+            
+    <bag name="cards" table="CardsInHand" lazy="false">
+      <key column="hand_id"/>
+      <composite-element class="CardView">                
+        <property name="name" column="name"/>        
+      </composite-element>
+    </bag>
+
+    <subclass name="PlayersHandView" discriminator-value="Player" lazy="false">
+      <property name="wager" column="bet"/>
+      <property name="turn_ended" column="turn_ended"/>
+      <property name="can_double_down" column="can_double_down"/>
+      <property name="can_split" column="can_split"/>
+      <property name="can_take_insurance"/>
+      <property name="has_taken_insurance"/>
+      <property name="is_active"/>
+      <property name="hand_letter"/>
+    </subclass >
+
+    <subclass name="DealersHandView" discriminator-value="Dealer" lazy="false">
+      
+    </subclass>
+
+  </class>
+
+</hibernate-mapping>

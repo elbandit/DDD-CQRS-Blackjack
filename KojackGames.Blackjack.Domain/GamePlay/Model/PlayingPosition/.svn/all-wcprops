@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition
+END
+PlayingPositions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition/PlayingPositions.cs
+END
+IPlayingPositions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Domain/GamePlay/Model/PlayingPosition/IPlayingPositions.cs
+END

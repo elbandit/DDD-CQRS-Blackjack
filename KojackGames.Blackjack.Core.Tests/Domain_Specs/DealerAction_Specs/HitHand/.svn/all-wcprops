@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/HitHand
+END
+when_hitting_the_players_hand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/88023/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/HitHand/when_hitting_the_players_hand.cs
+END
+with_a_hit_hand_action.cs
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/HitHand/with_a_hit_hand_action.cs
+END

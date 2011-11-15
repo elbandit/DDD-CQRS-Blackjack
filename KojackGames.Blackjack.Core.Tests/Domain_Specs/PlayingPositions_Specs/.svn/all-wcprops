@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/PlayingPositions_Specs
+END
+when_checking_if_there_is_a_free_position_with_available_position.cs
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/PlayingPositions_Specs/when_checking_if_there_is_a_free_position_with_available_position.cs
+END
+when_checking_if_there_is_a_free_position_without_available_position.cs
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/PlayingPositions_Specs/when_checking_if_there_is_a_free_position_without_available_position.cs
+END

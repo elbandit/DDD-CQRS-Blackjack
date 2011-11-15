@@ -1,0 +1,46 @@
+10
+
+dir
+88413
+https://agilenet.svn.codeplex.com/svn/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs
+https://agilenet.svn.codeplex.com/svn
+
+
+
+2011-05-03T19:28:04.357000Z
+88413
+unknown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81e6e737-5a20-4d0f-a97c-cb01297b46e0
+
+SoftBlackJackSpecification
+dir
+
+DoubleDownSpecification
+dir
+
+BlackJackSpecification
+dir
+
+HandScore
+dir
+
+SplitSpecification
+dir
+
+BustSpecification
+dir
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/BustSpecification
+END
+when_checking_that_a_hand_over_21_has_bust.cs
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/BustSpecification/when_checking_that_a_hand_over_21_has_bust.cs
+END
+when_checking_that_a_hand_under_21_has_bust.cs
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/87754/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/HandObservations_Specs/BustSpecification/when_checking_that_a_hand_under_21_has_bust.cs
+END

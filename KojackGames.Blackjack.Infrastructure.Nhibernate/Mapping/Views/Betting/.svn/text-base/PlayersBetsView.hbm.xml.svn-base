@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="KojackGames.Blackjack.Domain.DomainViews.BettingView"
+        assembly="KojackGames.Blackjack.Domain">
+
+  <class name="BetView" table="Players_Bets" mutable="false" lazy="false" >
+
+    <id name="id" type="Guid">
+    </id>
+
+    <property column="bet" name="wager"/>        
+            
+  </class>
+ 
+</hibernate-mapping>

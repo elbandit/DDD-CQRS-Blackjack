@@ -1,0 +1,49 @@
+﻿using System.Collections.Generic;
+using KojackGames.Blackjack.Domain.GamePlay.Model.Dealer.Actions;
+using KojackGames.Blackjack.Domain.GamePlay.Model.Dealer.Observations;
+using KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition;
+using KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Dealer;
+using KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Player;
+using KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Status;
+using KojackGames.Blackjack.Domain.Membership.Model;
+using Machine.Specifications;
+using Rhino.Mocks;
+
+namespace KojackGames.Blackjack.Core.Tests.Domain_Specs.DealerAction_Specs.DetermineWinner
+{
+    [Subject(typeof(AnnouceWinnerAction))]
+    public class when_a_player_has_stuck_at_18_and_a_dealer_has_stuck_at_19
+    {
+        private Establish context = () =>
+        {
+            player = MockRepository.GenerateStub<IPlayer>();
+            players_hand = MockRepository.GenerateStub<IPlayersHand>();
+            players_hand.Stub(x => x.has_status_of(HandStatus.stick)).Return(true);
+            dealers_hand = MockRepository.GenerateStub<IDealersHand>();
+            dealers_hand.Stub(x => x.has_status_of(HandStatus.stick)).Return(true);
+            playing_positions = MockRepository.GenerateStub<IPlayingPositions>();
+            playing_positions.Stub(x => x.dealers_hand).Return(dealers_hand);            
+            playing_positions.Stub(x => x.players_hands()).Return(new List<IPlayersHand>() { players_hand });
+
+            var hand_scorer = MockRepository.GenerateStub<IHandScorer>();
+            hand_scorer.Stub(x => x.calculate_score_for(dealers_hand)).Return(19);
+            hand_scorer.Stub(x => x.calculate_score_for(players_hand)).Return(18);
+            
+            SUT = new AnnouceWinnerAction(hand_scorer);
+        };
+            
+        private Because of = () => SUT.determine_winner_from(playing_positions, player);
+
+        private It should_set_the_players_hand_to_lost = () =>
+        {
+            players_hand.AssertWasCalled(x => x.change_state_to(HandStatus.lost));
+        };
+                                
+        private static AnnouceWinnerAction SUT;
+        private static IPlayingPositions playing_positions;
+        private static IPlayersHand players_hand;
+        private static IDealersHand dealers_hand;
+        private static IHandScorer hand_scorer;
+        private static IPlayer player;
+    }
+}

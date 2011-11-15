@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/InsuranceBet
+END
+when_checking_if_a_player_can_take_insurance_on_a_dealers_hand_with_an_ace.cs
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/!svn/ver/88413/Src/Trunk/KojackGames.Blackjack/KojackGames.Blackjack.Core.Tests/Domain_Specs/DealerAction_Specs/InsuranceBet/when_checking_if_a_player_can_take_insurance_on_a_dealers_hand_with_an_ace.cs
+END

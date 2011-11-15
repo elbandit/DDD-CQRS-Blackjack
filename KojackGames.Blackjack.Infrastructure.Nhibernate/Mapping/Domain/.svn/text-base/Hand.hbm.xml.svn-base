@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands"
+        assembly="KojackGames.Blackjack.Domain">
+
+  <class name="Hand" table="Hands" lazy="false" >
+
+    <id name="id" type="Guid">      
+    </id>
+       
+    <discriminator column="Discriminator"
+        not-null="true"
+        type="System.String"/>
+
+    <version column="version" name ="version_id" unsaved-value="0" />
+        
+    <component class="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Status.HandStatus" name="status">
+      <property name="id" column="state_id"/>
+      <property name="turn_ended" column="turn_ended"/>
+      <property name="name" column="state_name"/>      
+    </component>
+    
+    
+    <bag name="_cards" table="CardsInHand" access="field" lazy="true">
+      <key column="hand_id"/>
+      <composite-element class="KojackGames.Blackjack.Domain.GamePlay.Model.CardDeck.Card">        
+        <property name="suit"/>
+        <property name="card_value"/>
+        <property name="name" column="name" />
+        <property name="_hidden" access ="field" column ="is_hidden"/>
+      </composite-element>
+    </bag>
+
+    <many-to-one access="field" name="_blackjack_table"
+                 class="KojackGames.Blackjack.Domain.GamePlay.Model.BlackJackTable"
+                 column="blackjack_table_id"
+                 not-null="true"/>
+
+    <subclass name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Player.PlayersHand" discriminator-value="Player" lazy="false">
+      <property name="_can_double_down" access="field" column="can_double_down"/>
+      <property name="_can_split" access="field" column="can_split"/>
+      <property name="_can_take_insurance" access="field" column="can_take_insurance"/>
+      <property name="_hand_letter" access="field" column="hand_letter"/>
+      <property name="_has_taken_insurance" access="field" column="has_taken_insurance"/>
+      <property name="is_active"/>
+      <component name="wager" class="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Player.Chips">
+
+        <property name="value" column="bet"/>        
+      </component>
+      
+    </subclass>
+
+    <subclass name="KojackGames.Blackjack.Domain.GamePlay.Model.PlayingPosition.Hands.Dealer.DealersHand" discriminator-value="Dealer" lazy="false">      
+    </subclass>
+    
+  </class>
+
+</hibernate-mapping>
